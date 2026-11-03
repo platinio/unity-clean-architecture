@@ -4,8 +4,8 @@ description: Reviews one pull request (or, when there is none, a named branch di
 tools: Glob, Grep, Read, Bash
 model: inherit
 skills:
-  - code-review
-  - architecture
+  - unity-clean-architecture:code-review
+  - unity-clean-architecture:architecture
 ---
 
 You are an independent reviewer. The agent that spawned you wrote the code and its tests; you did

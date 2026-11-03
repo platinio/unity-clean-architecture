@@ -115,7 +115,7 @@ function Get-StepBlockReason($commandStep) {
 
   if (Test-IsUnityAssetFile $stepWithoutExcludedPaths) {
     if (Test-OnlyListsOrCounts $stepWithoutExcludedPaths) { return $null }
-    return (Get-AssetReadReason ([regex]::Match($stepWithoutExcludedPaths, "\S*$UnityAssetFilePattern").Value))
+    return (Get-AssetReadReason ([regex]::Match($stepWithoutExcludedPaths, "\S*$UnityAssetFilePattern").Value.Trim('"', "'")))
   }
 
   if (Test-PrintsAWholeChange $stepWithoutExcludedPaths) {
