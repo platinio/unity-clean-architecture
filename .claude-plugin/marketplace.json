@@ -1,0 +1,15 @@
+{
+  "name": "platinio",
+  "owner": { "name": "James Roman" },
+  "metadata": {
+    "description": "Claude Code plugins by James Roman",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "unity-clean-architecture",
+      "source": "./",
+      "description": "Clean code and architecture for Unity C#: readability rules, SOLID, patterns, a senior code review, the Arcane Onyx way, and a document-to-PR feature workflow"
+    }
+  ]
+}

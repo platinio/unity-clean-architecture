@@ -1,0 +1,9 @@
+{
+  "name": "unity-clean-architecture",
+  "description": "Clean code and architecture for Unity C#: the readability rules and the readability pass, SOLID as five questions, game programming patterns chosen from the problem, a senior code review, the Arcane Onyx way of shaping a feature, and a feature workflow that takes a document to reviewed pull requests",
+  "version": "1.0.0",
+  "author": { "name": "James Roman" },
+  "license": "MIT",
+  "repository": "https://github.com/platinio/unity-clean-architecture",
+  "keywords": ["unity", "csharp", "clean-code", "architecture", "solid", "patterns", "code-review"]
+}
