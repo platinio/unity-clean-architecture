@@ -1,0 +1,23 @@
+{
+  "description": "unity-clean-architecture: keeps the reviewer agent out of Unity asset files. The guard exits 0 for every other caller.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read|Grep|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe",
+            "args": [
+              "-NoProfile",
+              "-ExecutionPolicy",
+              "Bypass",
+              "-File",
+              "${CLAUDE_PLUGIN_ROOT}/hooks/guard-reviewer-assets.ps1"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
