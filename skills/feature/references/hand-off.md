@@ -4,6 +4,12 @@ Read this at Phase 6 and again at Phase 10. The three phases are the same thing 
 closing the holes before a human has to find them, and leaving behind the context that would otherwise
 die with your session.
 
+## Contents
+
+- Phase 6: self-review
+- Phase 7: the feature document
+- Phase 10: review the PRs, fix, verify once
+
 ## Phase 6: self-review
 
 Review your own diff before you commit it: the actual diff, not your memory of what you wrote, and inside

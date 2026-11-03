@@ -2,6 +2,15 @@
 
 Every pair below is a real correction from a review. The rule numbers are the `architecture` skill's.
 
+## Contents
+
+- Renames
+- Method shape
+- An entry method that tells the story
+- Comments
+- Asking an object which class it is
+- Two limits, seen in practice
+
 ## Renames
 
 | Before | After | Rule |
